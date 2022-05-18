@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>University Website Design - Dhruvi Kakadia</title>
+	<link rel="stylesheet"  href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+
+
+
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="./images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="AboutUs.html">ABOUT</a></li>
+					<li><a href="Course.html">COURSE</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="Contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa-solid fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>Our Courses</h1>
+	
+	</section>
+
+	<!-----------Course----------->
+	<section class="course">
+		<h1>Courses We Offer</h1>
+		<p>Search for courses and short courses here 2022. A comprehensive selection of management courses, training courses, online degrees and many more!</p>
+	
+		<div class="row">
+			<div class="course-col">
+				<h3>Intermediate</h3>
+				<p>No matter what you study, you will get an education grounded in the 8 Abilities, which we believe are essential to success at work and in life — real-world skills like communication, analysis, problem-solving, developing a global perspective and more. These are the traits that employers tell us make Alverno grads stand out.
+	
+					Why? We focus on results instead of traditional letter grades. In every class, you will get insightful feedback on your strengths and how you can improve, giving you a more complete view of your academic progress. </p>
+			</div>
+			<div class="course-col">
+				<h3>Degree</h3>
+				<p>Building on our strong roots in leadership, health care and education, Alverno is proud to offer an array of coed graduate programs for women and men who are ready to advance their careers and grow as leaders.
+	
+					We encourage you to explore our individual programs as well as to register to attend one of our upcoming information sessions</p>
+			</div>
+			<div class="course-col">
+				<h3>Post Graduation</h3>
+				<p>
+					Find your perfect course
+					Do you have ambition to advance or even change your career? Are you passionate to learn more about a subject you love? Whatever your reason for wanting to study further, at Kingston we will help make it work.
+					
+					We offer a wide range of taught and research masters courses, including doctoral courses and diplomas with flexible study options to help meet your learning needs and enable you to balance studying with work or family commitments.</p>
+			</div>
+		</div>
+	</section>
+<!----------Facilities---------->
+
+<section class="facilities">
+	<h1>Our Facilities</h1>
+	<p>We have many world-class, large scale and national facilities that enhance the quality and value of our research and teaching. Many of our facilities are available for external use. </p>
+
+	<div class="row">
+		<div class="facilities-col">
+			<img src="./images/library.png">
+				<h3>World Class library</h3>
+				<p> The Central Library is the indispensable hub of discovery, learning and creativity at DEI by providing a distinguished collection of information resources</p>
+			
+		</div>
+		<div class="facilities-col">
+			<img src="./images/basketball.png">
+				<h3>Largest Playground</h3>
+				<p>The Fun for All Playground is designed to serve various ability levels and incorporates educational aspects to spark imaginations.</p>
+			
+		</div>
+		<div class="facilities-col">
+			<img src="./images/cafeteria.png">
+				<h3>Tasty and Healthy Food</h3>
+				<p>Choose high-fibre foods to fill you up such as fresh fruit, fruit salad, vegetables (frozen are fine), baked beans instead of spaghetti, lentils, porridge</p>
+			
+		</div>
+	</div>
+</section>
+	
+
+	
+
+
+<!-------------Footer------------------>
+<section class="footer">
+	<h4>About Us</h4>
+	<p>
+		We're a university where curiosity prevails, and where exploring new ways of thinking and pushing boundaries, isn't just encouraged, it's expected. 
+	</p>
+	<div class="icons">
+		<i class="fa fa-facebook" ></i>
+		<i class="fa fa-twitter" ></i>
+		<i class="fa fa-instagram" ></i>
+		<i class="fa fa-linkedin" ></i>
+	</div>
+	<p>Made with <i class="fa fa-heat-o" ></i>  by Dhruvi Kakadia</p>
+</section>
+
+
+<!-------JavaScript for Toggle Menu--------->
+
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	</script>
+</body>
+</html>
